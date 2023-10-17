@@ -1,0 +1,313 @@
+/* Use Playfair Display for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  /* Use Lato for normal text */
+  body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+
+/* small mobile to larger phones*/
+ @media screen and (max-width: 767px){
+   
+    
+ 
+  #home-h2{
+    font-size: 20px;
+}
+#home-h3{
+    font-size: 30px;
+}
+#home-h6{
+    font-size: 10px;
+}
+  
+}
+/* small devices */
+
+@media screen and (max-width:320px){
+    #org-home-h2{
+        color:#FFC03E;        
+        font-size: 18px !important;
+        font-weight: 700;
+        margin-top: 1.5rem;
+    }
+    #org-home-para-1{
+      padding-top: 0.5rem;
+    }
+    .card-section{
+        width: 280px !important;
+        height: 110px !important;
+   
+    }
+    .card{
+        width: 280px !important;
+        height: 130px !important;
+        padding: 3px !important;
+        margin-left: 1rem;
+    
+    }
+    .card-btn{
+        width:60px;
+        font-size: 5px !important;
+
+        text-align: center;
+        height: 20px;
+    }
+    .card-body{
+        padding: 2px !important;
+
+    }
+    .card-body h4{
+
+        font-size: 10px !important;
+    }
+    
+    .card-body .para-1{
+
+        font-size: 7px !important;
+    }
+    
+    .card-body .para-2{
+
+        font-size: 5px !important;
+    }
+    
+    .package-head-section h2{
+
+        font-size: 14px;
+    }
+    .package-head-section p{
+
+        font-size: 9px;
+    }
+    .pacakge-ul {
+        display: none;
+    }
+}
+
+/* medium mobiles to larger mobile devices */
+
+@media screen and (min-width:321px) and (max-width:480px){
+    #home-header{
+        margin-left: 1.5rem;
+        padding: 0.5rem;
+    }
+    
+    #home-h2{
+        font-size: 30px;
+        padding: 2px 0px;
+   
+    }
+    #home-h3{
+        font-size: 35px;
+        padding: 2px 0px;
+   
+    }
+    #home-h6{
+        font-size: 15px;
+        padding: 10px 0px;
+   
+    }
+    #org-home-h2{
+        color: #FFC03E !important;
+        font-size: 20px !important;
+    }
+    .card-section{
+        width: 350px !important;
+        height: 220px !important;
+   
+    }
+    .card{
+        width: 350px !important;
+        height: 150px !important;
+        padding: 0px !important;
+        margin-left: 0.7rem;
+    }
+    .card-btn{
+        width:60px;
+        font-size: 5px !important;        
+        text-align: center;
+        height: 20px;
+        margin-left: 0.9rem;
+    }
+
+    .card-body{
+        padding: 4px !important;
+
+    }
+    .card-body h4{
+
+        font-size: 12px !important;
+    }
+    .package-head-section h2{
+
+        font-size: 15px;
+    }
+    .package-head-section p{
+
+        font-size: 10px;
+    }
+    .card-body p{
+
+        font-size: 8px !important;
+    }
+    .pacakge-ul li{
+        display: none;
+    }
+
+}
+
+/* larger mobile devices */
+
+@media screen and (min-width: 425px) and (max-width : 767px) {
+  
+    .card{
+    margin-left: 1rem !important;
+  }
+  .card-body{
+    padding: 10px !important;
+  }
+  .card-btn{
+    margin-bottom: 0.5rem !important;
+    margin-left: 0.5rem !important;
+  }
+}
+/* samll mobiles to tablet devices */
+
+@media screen and (max-width:992px)  {
+    .home-image-section img {
+        width: 100%;
+        height:100%;
+    }
+    #home-sm-carousel img{
+        width: 100%;
+        height: 300px;
+    }
+    #home-header{
+        margin-top: 1rem;
+    }
+    
+    #org-home-h2{
+        font-size: 15px;
+        font-weight: 800;
+        color: #FFC03E;
+    }
+    .package-section{
+        margin-top: 3rem;
+    }
+    
+}
+
+
+/* only tablet devices */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #navbarsection{
+        margin-left: 5rem;
+     }
+     #list-items li{
+        margin-left: 3rem;
+        font-weight: 500;
+    }
+    #home-sm-carousel img{
+        width: 300px;
+        height: 400px;
+    }
+ 
+  }
+
+
+
+
+
+/* laptop to higher devices*/
+  
+  @media screen and (min-width: 992px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    #navbarsection{
+       margin-left: 11rem;
+    }
+    #list-items li{
+        margin-left: 9rem;
+        font-weight: 500;
+    }
+
+    #home-h2{
+        font-size: 25px;
+        font-weight: 800;
+        color: #FFC03E;
+    }
+    #home-h3{
+        font-size: 45px;
+        font-weight: 700;
+    }
+    #home-h6{
+        font-size: 25px;
+    }
+    .carousel{
+        width: 600px;
+        height: 450px;
+        object-fit: cover;
+      }
+    #home-header{
+      width: 50vw;
+    }
+    .carousel-item img {
+      width: 600px;  
+      height: 450px;
+    }
+    #org-home-h2{
+        color: #FFC03E;
+        font-weight: 700;
+    }  
+    .pacakge-ul li {
+       padding:0.5rem;
+       font-size: 12px;
+       font-weight: 500;
+    }
+    
+    .card{
+        width: 18rem;
+    }
+    .package-section{
+        margin-top: 10rem;
+    }
+    
+  }
+
+
+
+
+
+  /* All devices devices*/
+
+.nav-item a:hover{
+    color:#6930C3 !important;
+}
+.color-header{
+    color:#6930C3;
+}
+#org-home-para p {
+    text-align: justify;
+}
+
+.card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add a transition effect */
+
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Apply a box shadow on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transitions for both transform and box-shadow */
+  
+}
