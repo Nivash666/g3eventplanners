@@ -142,7 +142,6 @@ h1, h2, h3, h4, h5, h6 {
     }
     .card{
         width: 250px !important;
-        height: 200px !important;
         margin-top: 0.7rem;
         margin-left: 2.3rem;
     }
@@ -152,9 +151,17 @@ h1, h2, h3, h4, h5, h6 {
         text-align: center;
         height: 30px;
 
-        margin-left: 1.4rem;
     }
-
+    #card-para{
+        padding: 0rem 1.2rem;
+        font-size: 20px !important;
+      }
+    
+      .card-body .para-2{
+        padding: 0rem 1.2rem !important;
+        text-align: justify;
+      }
+    
     .card-body{
         padding: 10px !important;
 
