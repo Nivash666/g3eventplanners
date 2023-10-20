@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .circle-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+
+  .outer-circle {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .outer-circle::before {
+    content: ">";
+    position: absolute;
+    top: 50%;
+    left: 75%; /* Adjust the left value to control the position of the ">" symbol */
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+  }
+
+  .inner-circle {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+  }
+  #symbol{
+    position: absolute;
+    top:0%;
+    font-size: 100px;
+    color:red;
+  }
+</style>
+</head>
+<body>
+    <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <!-- Create the 90% completed circle -->
+        <circle cx="50" cy="50" r="40" fill="none" stroke="blue" stroke-width="20"
+                stroke-dasharray="276.195" stroke-dashoffset="32.62" />
+        
+        <!-- Create the ">" symbol in the outer right corner -->
+        
+      </svg>
+      <div id="symbol">
+            >
+      </div>
+
+      <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+        <!-- Create the 90% completed circle -->
+        <circle cx="50" cy="50" r="40" fill="none" stroke="blue" stroke-width="20"
+                stroke-dasharray="226.195" stroke-dashoffset="22.62" />
+        
+        <!-- Create the ">" symbol to close the remaining gap -->
+        <text x="85" y="52" font-size="20" fill="blue">></text>
+      </svg>
+      
+</body>
+</html>
